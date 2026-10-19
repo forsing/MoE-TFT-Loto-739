@@ -66,9 +66,9 @@ except ImportError as exc:
 
 
 DEFAULT_FILES = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_2974.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4704_k83_loto_plus_1730.csv",
+    "/data/loto7_4704_k83.csv",
+    "/data/loto7_4704_k83_loto_2974.csv",
+    "/data/loto7_4704_k83_loto_plus_1730.csv",
 )
 
 WINDOW = 30
@@ -973,7 +973,7 @@ Ponder prvog MoE eksperta kroz završnu proveru: min=0.032920, prosek=0.302434, 
   Treniranje: TFTLite
     TFTLite: epoha 5/7; CDF MSE=0.0732636
 
-FINALNI NEXT: 2, 8, 11, 18, 28, 33, 39
+FINALNI NEXT: 2, x, 11, y, 28, z, 39
 Modelski log-skor: -16.28491085
 Upotrebljenih trening prelaza: 4674
 MoE usmerivač za NEXT — ekspert 1 / ekspert 2: 0.277610 / 0.722390
@@ -1031,7 +1031,7 @@ Ponder prvog MoE eksperta kroz završnu proveru: min=0.102989, prosek=0.375054, 
   Treniranje: MoE
   Treniranje: TFTLite
 
-FINALNI NEXT: 2, 6, 12, 18, 24, 28, 39
+FINALNI NEXT: 2, x, 12, y, 24, z, 39
 Modelski log-skor: -15.43116118
 Upotrebljenih trening prelaza: 2944
 MoE usmerivač za NEXT — ekspert 1 / ekspert 2: 0.357751 / 0.642249
@@ -1110,7 +1110,7 @@ Ponder prvog MoE eksperta kroz završnu proveru: min=0.043888, prosek=0.376774, 
     TFTLite: epoha 30/35; CDF MSE=0.0732839
     TFTLite: epoha 35/35; CDF MSE=0.0732586
 
-FINALNI NEXT: 1, 8, 11, 23, 27, 31, 39
+FINALNI NEXT: 1, x, 11, y, 27, z, 39
 Modelski log-skor: -16.11428764
 Upotrebljenih trening prelaza: 1700
 MoE usmerivač za NEXT — ekspert 1 / ekspert 2: 0.499793 / 0.500207
@@ -1122,9 +1122,9 @@ Brojeva 1..19 / 20..39: 3 / 4
 
 ============================================================================
 ZAVRŠNI NEXT PREGLED
-loto7_4704_k83.csv: 2, 8, 11, 18, 28, 33, 39
-loto7_4704_k83_loto_2974.csv: 2, 6, 12, 18, 24, 28, 39
-loto7_4704_k83_loto_plus_1730.csv: 1, 8, 11, 23, 27, 31, 39
+loto7_4704_k83.csv: 2, x, 11, y, 28, z, 39
+loto7_4704_k83_loto_2974.csv: 2, x, 12, y, 24, z, 39
+loto7_4704_k83_loto_plus_1730.csv: 1, x, 11, y, 27, z, 39
 """
 
 
